@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { ArrowUpRight } from 'lucide-react'
 
 const year = new Date().getFullYear()
@@ -6,17 +7,17 @@ const groups = [
   {
     title: 'Aprender',
     links: [
-      { label: 'Tablas interactivas', href: '#temario' },
-      { label: 'Propiedades y leyes', href: '#temario' },
-      { label: 'Casos de la vida real', href: '#temario' },
+      { label: 'Tablas interactivas', to: '/tablas' },
+      { label: 'Propiedades y leyes', to: '/propiedades' },
+      { label: 'Casos de la vida real', to: '/vida-real' },
     ],
   },
   {
     title: 'Practicar',
     links: [
-      { label: 'Ruta de aprendizaje', href: '#ruta' },
-      { label: 'Retos cortos', href: '#ruta' },
-      { label: 'Pretest', href: '#pretest' },
+      { label: 'Inicio', to: '/' },
+      { label: 'Retos cortos', to: '/vida-real' },
+      { label: 'Pretest', to: '/pretest' },
     ],
   },
 ]
@@ -27,14 +28,14 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
           <div>
-            <a href="#inicio" className="inline-flex items-center gap-2.5">
+            <Link to="/" className="inline-flex items-center gap-2.5">
               <span className="grid size-9 place-items-center rounded-xl bg-ink font-display text-lg font-bold text-lime">
                 ×
               </span>
               <span className="font-display text-base font-semibold tracking-tight text-ink">
                 Multiplica
               </span>
-            </a>
+            </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
               Plataforma educativa móvil para comprender la multiplicación con
               animaciones, ejemplos cercanos y práctica constante.
@@ -49,13 +50,13 @@ export function Footer() {
               <ul className="mt-4 space-y-2.5">
                 {group.links.map((link) => (
                   <li key={link.label}>
-                    <a
-                      href={link.href}
+                    <Link
+                      to={link.to}
                       className="group inline-flex items-center gap-1 text-sm text-ink-soft transition-colors hover:text-brand"
                     >
                       {link.label}
                       <ArrowUpRight className="size-3.5 opacity-0 transition-opacity group-hover:opacity-100" aria-hidden="true" />
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

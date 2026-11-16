@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161a14"/>
+      <stop offset="1" stop-color="#10130f"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g)"/>
+  <g opacity="0.1" stroke="#f2b544" stroke-width="1"><line x1="60" y1="0" x2="60" y2="600"/><line x1="120" y1="0" x2="120" y2="600"/><line x1="180" y1="0" x2="180" y2="600"/><line x1="240" y1="0" x2="240" y2="600"/><line x1="300" y1="0" x2="300" y2="600"/><line x1="360" y1="0" x2="360" y2="600"/><line x1="420" y1="0" x2="420" y2="600"/><line x1="480" y1="0" x2="480" y2="600"/><line x1="540" y1="0" x2="540" y2="600"/><line x1="0" y1="60" x2="600" y2="60"/><line x1="0" y1="120" x2="600" y2="120"/><line x1="0" y1="180" x2="600" y2="180"/><line x1="0" y1="240" x2="600" y2="240"/><line x1="0" y1="300" x2="600" y2="300"/><line x1="0" y1="360" x2="600" y2="360"/><line x1="0" y1="420" x2="600" y2="420"/><line x1="0" y1="480" x2="600" y2="480"/><line x1="0" y1="540" x2="600" y2="540"/></g>
+  <circle cx="470" cy="120" r="64" fill="none" stroke="#f2b544" stroke-width="2" stroke-dasharray="4 10" opacity="0.6"/>
+  <text x="52" y="82" fill="#f2b544" font-family="'Sora','Segoe UI',Arial,sans-serif" font-size="22" letter-spacing="6" font-weight="600">TABLA</text>
+  <text x="300" y="392" text-anchor="middle" fill="#f6f4ee" font-family="'Sora','Segoe UI',Arial,sans-serif" font-size="300" font-weight="700" letter-spacing="-14">1</text>
+  <line x1="52" y1="440" x2="230" y2="440" stroke="#f2b544" stroke-width="3" stroke-linecap="round"/>
+  <text x="52" y="500" fill="#f6f4ee" opacity="0.62" font-family="'Sora','Segoe UI',Arial,sans-serif" font-size="24">× 1  ·  × 2  ·  …  ·  × 10</text>
+  <text x="52" y="552" fill="#f2b544" font-family="'Sora','Segoe UI',Arial,sans-serif" font-size="20" letter-spacing="2">MULTIPLICA</text>
+</svg>

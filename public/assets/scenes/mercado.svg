@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#cbf25c"/>
+  <g opacity="0.09" stroke="#10130f" stroke-width="1">
+    <line x1="0" y1="300" x2="600" y2="300"/>
+    <line x1="0" y1="340" x2="600" y2="340"/>
+    <line x1="420" y1="0" x2="420" y2="400"/>
+    <line x1="470" y1="0" x2="470" y2="400"/>
+  </g>
+  <text x="44" y="150" font-family="'Segoe UI Emoji','Apple Color Emoji',sans-serif" font-size="104">🛒</text>
+  <text x="44" y="252" fill="#10130f" font-family="'Sora','Segoe UI',Arial,sans-serif" font-size="46" font-weight="700">Mercado</text>
+  <text x="44" y="308" fill="#10130f" opacity="0.72" font-family="'Sora','Segoe UI',Arial,sans-serif" font-size="26">3 × 4 naranjas</text>
+  <circle cx="512" cy="86" r="46" fill="none" stroke="#10130f" stroke-width="3" opacity="0.5"/>
+  <text x="512" y="112" text-anchor="middle" fill="#10130f" font-family="'Sora','Segoe UI',Arial,sans-serif" font-size="58" font-weight="700">×</text>
+</svg>

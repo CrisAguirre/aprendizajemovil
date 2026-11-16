@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import {
   ArrowRight,
   Check,
@@ -6,9 +7,10 @@ import {
   PlayCircle,
   Smartphone,
   Sparkles,
-  WifiOff,
 } from 'lucide-react'
-import { BlurText, ShinyText, SpotlightCard } from '@/components/reactbits'
+import BlurText from '@/components/reactbits/BlurText'
+import ShinyText from '@/components/reactbits/ShinyText'
+import SpotlightCard from '@/components/reactbits/SpotlightCard'
 import { cn } from '@/lib/utils'
 
 const options = [54, 56, 64, 48]
@@ -85,20 +87,20 @@ export function Hero() {
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <a
-              href="#temario"
+            <Link
+              to="/tablas"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-semibold text-paper transition-colors hover:bg-brand-strong"
             >
               Comenzar ahora
               <ArrowRight className="size-4" aria-hidden="true" />
-            </a>
-            <a
-              href="#temario"
+            </Link>
+            <Link
+              to="/pretest"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-line bg-white/60 px-6 py-3.5 text-sm font-semibold text-ink transition-colors hover:bg-white"
             >
               <PlayCircle className="size-4 text-brand" aria-hidden="true" />
-              Ver el temario
-            </a>
+              Hacer el pretest
+            </Link>
           </div>
 
           <ul className="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-xs font-medium text-muted">
@@ -107,8 +109,8 @@ export function Hero() {
               Diseñado para móvil
             </li>
             <li className="inline-flex items-center gap-1.5">
-              <WifiOff className="size-4 text-brand" aria-hidden="true" />
-              Funciona sin conexión
+              <Check className="size-4 text-brand" aria-hidden="true" />
+              Progreso guardado en tu dispositivo
             </li>
             <li className="inline-flex items-center gap-1.5">
               <Check className="size-4 text-brand" aria-hidden="true" />
@@ -229,7 +231,7 @@ export function Hero() {
             </p>
           </div>
 
-          <div className="absolute -right-2 -top-5 hidden animate-float-reverse rounded-2xl bg-lime px-3.5 py-2.5 shadow-lg sm:block">
+          <div className="absolute -right-2 -top-6 hidden animate-float-reverse rounded-2xl bg-lime px-3.5 py-2.5 shadow-lg sm:block">
             <p className="font-display text-sm font-semibold text-ink">+120 XP</p>
           </div>
         </div>

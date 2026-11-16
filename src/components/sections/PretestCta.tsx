@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom'
 import { ArrowRight, Check, ClipboardCheck, Clock3, Sparkles } from 'lucide-react'
-import { DecryptedText } from '@/components/reactbits'
+import DecryptedText from '@/components/reactbits/DecryptedText'
 
 const details = [
   { icon: ClipboardCheck, label: '10 preguntas' },
@@ -68,22 +69,22 @@ export function PretestCta() {
 
             <div className="lg:justify-self-end">
               <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
-                <a
-                  href="#ruta"
+                <Link
+                  to="/pretest"
                   className="inline-flex items-center justify-center gap-2 rounded-full bg-lime px-6 py-3.5 text-sm font-semibold text-ink transition-colors hover:bg-lime-soft"
                 >
-                  Empezar la ruta
+                  Hacer el pretest
                   <ArrowRight className="size-4" aria-hidden="true" />
-                </a>
-                <a
-                  href="#temario"
+                </Link>
+                <Link
+                  to="/tablas"
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 px-6 py-3.5 text-sm font-semibold text-paper transition-colors hover:bg-white/5"
                 >
-                  Repasar el temario
-                </a>
+                  Repasar las tablas
+                </Link>
               </div>
               <p className="mt-3 text-center text-[11px] uppercase tracking-[0.14em] text-paper/55 lg:text-right">
-                Pretest al final de la ruta
+                Resultado inmediato y sin límite de intentos
               </p>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import { CountUp } from '@/components/reactbits'
+import CountUp from '@/components/reactbits/CountUp'
 
 const stats = [
   { value: 10, suffix: '', label: 'tablas interactivas', note: 'Del 1 al 10' },
