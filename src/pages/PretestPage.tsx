@@ -81,7 +81,7 @@ export function PretestPage() {
     return (
       <>
         <PageHeader
-          eyebrow="Evaluar · Pretest"
+          eyebrow="Evaluar · Post-test"
           title={
             <>
               Pon a prueba <span className="text-brand">lo que sabes</span>.
@@ -103,7 +103,7 @@ export function PretestPage() {
               />
               <div className="pointer-events-none absolute inset-x-0 bottom-0 flex items-end justify-between p-4">
                 <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-paper/50">
-                  Multiplica · pretest final
+                  Multiplica · post-test final
                 </p>
                 <p className="font-display text-sm font-semibold text-lime">10 preguntas</p>
               </div>
@@ -133,7 +133,7 @@ export function PretestPage() {
               onClick={start}
               className="inline-flex items-center justify-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-semibold text-paper transition-colors hover:bg-brand-strong"
             >
-              Comenzar pretest
+              Comenzar post-test
               <ArrowRight className="size-4" aria-hidden="true" />
             </button>
             <p className="text-xs text-muted">
@@ -244,7 +244,7 @@ export function PretestPage() {
               className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted transition-colors hover:text-brand"
             >
               <ArrowLeft className="size-3.5" aria-hidden="true" />
-              Salir del pretest
+              Salir del post-test
             </button>
             <span className="rounded-full bg-white/70 px-3 py-1 text-[11px] font-semibold text-ink-soft">
               Pregunta {index + 1} de {pretestQuestions.length}
@@ -349,7 +349,7 @@ export function PretestPage() {
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">
-              Resultado del pretest
+              Resultado del post-test
             </p>
             <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
               {messageFor(score)}
@@ -365,7 +365,7 @@ export function PretestPage() {
               className="inline-flex items-center gap-1.5 rounded-full bg-ink px-5 py-3 text-xs font-semibold text-paper transition-colors hover:bg-brand-strong"
             >
               <RotateCcw className="size-3.5" aria-hidden="true" />
-              Repetir pretest
+              Repetir post-test
             </button>
             <Link
               to="/tablas"
@@ -423,7 +423,7 @@ export function PretestPage() {
               <p className="text-xs leading-relaxed text-brand-strong">
                 {score >= 7
                   ? 'Aprobado. Sigue practicando para mantener el ritmo y explora los retos de la vida real.'
-                  : 'Todavía en progreso. Repasa las preguntas marcadas y vuelve a intentarlo: el pretest no tiene límite de intentos.'}
+                  : 'Todavía en progreso. Repasa las preguntas marcadas y vuelve a intentarlo: el post-test no tiene límite de intentos.'}
               </p>
             </div>
           </div>
@@ -449,7 +449,7 @@ export function PretestPage() {
                   />
                   <div className="flex items-center justify-between text-[10px] font-semibold uppercase tracking-[0.18em] [color:var(--rc-muted)]">
                     <span>Multiplica</span>
-                    <span>Pretest</span>
+                    <span>Post-test</span>
                   </div>
 
                   <div className="mt-auto">

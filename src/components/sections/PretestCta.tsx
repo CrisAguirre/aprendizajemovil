@@ -73,7 +73,7 @@ export function PretestCta() {
                   to="/pretest"
                   className="inline-flex items-center justify-center gap-2 rounded-full bg-lime px-6 py-3.5 text-sm font-semibold text-ink transition-colors hover:bg-lime-soft"
                 >
-                  Hacer el pretest
+                  Hacer el post-test
                   <ArrowRight className="size-4" aria-hidden="true" />
                 </Link>
                 <Link

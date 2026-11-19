@@ -35,7 +35,7 @@ const features = [
   },
   {
     icon: ClipboardCheck,
-    title: 'Pretest y progreso',
+    title: 'Post-test y progreso',
     description:
       'Cierra el recorrido con diez preguntas, revisa cada respuesta y recibe tu credencial.',
     tag: '10 preguntas',

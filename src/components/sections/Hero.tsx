@@ -99,7 +99,7 @@ export function Hero() {
               className="inline-flex items-center justify-center gap-2 rounded-full border border-line bg-white/60 px-6 py-3.5 text-sm font-semibold text-ink transition-colors hover:bg-white"
             >
               <PlayCircle className="size-4 text-brand" aria-hidden="true" />
-              Hacer el pretest
+              Hacer el post-test
             </Link>
           </div>
 

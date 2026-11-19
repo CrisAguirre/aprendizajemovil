@@ -9,7 +9,7 @@ const links = [
   { label: 'Tablas', to: '/tablas' },
   { label: 'Propiedades', to: '/propiedades' },
   { label: 'Vida real', to: '/vida-real' },
-  { label: 'Pretest', to: '/pretest' },
+  { label: 'Post-test', to: '/pretest' },
 ]
 
 export function Header() {

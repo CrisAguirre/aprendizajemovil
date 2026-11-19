@@ -31,7 +31,7 @@ const steps = [
   {
     title: 'Demuestra lo aprendido',
     description:
-      'Completa el pretest final y recibe una credencial con tu resultado.',
+      'Completa el post-test final y recibe una credencial con tu resultado.',
     meta: '5 min · 10 preguntas',
     example: '8 × 9 = 72',
     to: '/pretest',

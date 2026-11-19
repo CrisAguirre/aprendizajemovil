@@ -17,7 +17,7 @@ const groups = [
     links: [
       { label: 'Inicio', to: '/' },
       { label: 'Retos cortos', to: '/vida-real' },
-      { label: 'Pretest', to: '/pretest' },
+      { label: 'Post-test', to: '/pretest' },
     ],
   },
 ]
